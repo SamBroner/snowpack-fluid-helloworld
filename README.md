@@ -1,8 +1,17 @@
 # New Project
 
-> ✨ Bootstrapped with Create Snowpack App (CSA). Merged with the Fluid Framework Hello World.
+> ✨ Bootstrapped with Create Snowpack App (CSA). Merged with the **Fluid Framework Hello World.**
+
+## Links
+[Snowpack](https://www.snowpack.dev/)
+
+[Fluid Framework](https://fluidframework.com/)
+
+[Fluid Hello World](https://github.com/microsoft/FluidHelloWorld)
 
 ## Available Scripts
+
+Run ```npm i``` to download dependencies. Then run ```npm start``` and ```npm run start:server``` simultaneously to see the working demo.
 
 ### npm start
 
