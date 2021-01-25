@@ -10,6 +10,19 @@ module.exports = {
   ],
   installOptions: {
     installTypes: true,
+    // polyfillNode: false,
+    rollup: {
+      // @ts-ignore
+      plugins: [require('rollup-plugin-node-polyfills')(
+        {
+          events: true,
+          url: true,
+          assert:true,
+          querystring: true,
+
+       }
+      )],
+    },
   },
   devOptions: {
     /* ... */

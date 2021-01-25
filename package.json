@@ -1,20 +1,26 @@
 {
   "scripts": {
     "start": "snowpack dev",
+    "start:server": "tinylicious",
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
     "format": "prettier --write \"src/**/*.{ts,js}\"",
     "lint": "prettier --check \"src/**/*.{ts,js}\""
   },
   "dependencies": {
-    "canvas-confetti": "^1.2.0"
+    "canvas-confetti": "^1.2.0",
+    "@fluidframework/aqueduct": "^0.28.0",
+    "@fluidframework/get-tinylicious-container": "^0.28.0",
+    "@fluidframework/map": "^0.28.0"
   },
   "devDependencies": {
     "@snowpack/plugin-typescript": "^1.1.0",
     "@types/canvas-confetti": "^1.0.0",
     "@types/snowpack-env": "^2.3.2",
     "prettier": "^2.0.5",
+    "rollup-plugin-node-polyfills": "file:../rollup-plugin-node-polyfills",
     "snowpack": "^2.17.1",
+    "tinylicious": "0.2.3810",
     "typescript": "^4.0.0"
   }
 }
